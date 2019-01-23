@@ -160,7 +160,7 @@ $purple: #c7c0de;
             li, .eac-category {
                 border-color: $dark-light;
 
-                &.selected {
+                &.selected, &:hover {
                     background-color: lighten($dark-light, 10%);
                     color: #fff;
                 }

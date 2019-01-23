@@ -93,7 +93,7 @@
 .easy-autocomplete.eac-dark-light ul li, .easy-autocomplete.eac-dark-light ul .eac-category {
   border-color: #333;
 }
-.easy-autocomplete.eac-dark-light ul li.selected, .easy-autocomplete.eac-dark-light ul .eac-category.selected {
+.easy-autocomplete.eac-dark-light ul li.selected, .easy-autocomplete.eac-dark-light ul li:hover, .easy-autocomplete.eac-dark-light ul .eac-category.selected, .easy-autocomplete.eac-dark-light ul .eac-category:hover {
   background-color: #4d4d4d;
   color: #fff;
 }

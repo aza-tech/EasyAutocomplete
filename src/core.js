@@ -290,7 +290,7 @@ var EasyAutocomplete = (function(scope) {
 											})
 											.mouseover(function() {
 
-												selectedElement = itemCounter;
+                                                selectedElement = -1;
 												selectElement(itemCounter);	
 
 												config.get("list").onMouseOverEvent();
